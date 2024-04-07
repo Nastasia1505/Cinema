@@ -1,0 +1,50 @@
+.header {
+    padding: 1rem 3rem;
+    display: flex;
+    // position: fixed;
+    justify-content: space-between;
+    background-color: rgb(44, 40, 40);
+    position: sticky;
+}
+
+.navbar {
+    display: flex;
+    gap: 3rem;
+}
+
+.menuBtn {
+    padding: 0.8rem;
+    border: none;
+    color: rgb(236, 232, 232);
+    background-color: transparent;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+
+}
+
+
+.isOpenMenuLinks {
+    background-color: rgb(92, 92, 92);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 100;
+    transform: scale(1);
+}
+
+.isCloseMenuLinks {
+    display: none;
+}
+
+.menuLink {
+    padding: 0.5rem;
+
+}
+
+.menuLink:hover {
+    background-color: aqua;
+}

@@ -1,26 +1,26 @@
-
-import { display, style } from '@mui/system'
 import * as React from 'react'
 import { useState } from 'react'
+import { Link } from "react-router-dom"
 import styles from './styles.module.scss'
 
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-
     return (
         <header className={styles.header}>
             <div>Logo</div>
-            <nav className={styles.navbar}>
+            <nav className={styles.navbar} onMouseLeave={() => {
+                        setIsMenuOpen(false)
+                    }}>
                 <div>
-                    <button className={styles.menuBtn} onClick={() => {
+                    <button className={styles.menuBtn} onMouseEnter={() => {
                         setIsMenuOpen(true)
-                    }}>Movies</button>
+                    }} >Movies</button>
 
                     <div className={isMenuOpen ? styles.isOpenMenuLinks : styles.isCloseMenuLinks}>
-                        <a className={styles.menuLink}>Movies</a>
-                        <a className={styles.menuLink}>Comming soon</a>
+                        <Link to='/movies' className={styles.menuLink}>Movies</Link>
+                        <Link to='/comming_soon' className={styles.menuLink}>Comming soon</Link>
                     </div>
                 </div>
                 <div>

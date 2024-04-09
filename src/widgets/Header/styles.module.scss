@@ -1,7 +1,6 @@
 .header {
     padding: 1rem 3rem;
     display: flex;
-    // position: fixed;
     justify-content: space-between;
     background-color: rgb(44, 40, 40);
     position: sticky;
@@ -33,7 +32,7 @@
     border-radius: 0.5rem;
     position: absolute;
     z-index: 100;
-    transform: scale(1);
+    
 }
 
 .isCloseMenuLinks {
@@ -42,6 +41,8 @@
 
 .menuLink {
     padding: 0.5rem;
+    text-decoration: none;
+    color: azure;
 
 }
 

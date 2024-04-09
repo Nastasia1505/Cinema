@@ -9,7 +9,7 @@ function Header() {
 
     return (
         <header className={styles.header}>
-            <div>Logo</div>
+            <div><a href='/'>Logo </a></div>
             <nav className={styles.navbar} onMouseLeave={() => {
                         setIsMenuOpen(false)
                     }}>
@@ -19,14 +19,15 @@ function Header() {
                     }} >Movies</button>
 
                     <div className={isMenuOpen ? styles.isOpenMenuLinks : styles.isCloseMenuLinks}>
-                        <Link to='/movies' className={styles.menuLink}>Movies</Link>
-                        <Link to='/comming_soon' className={styles.menuLink}>Comming soon</Link>
+                        <a href='/movies' className={styles.menuLink}>Movies</a>
+                        <a href='/comming_soon' className={styles.menuLink}>Comming soon</a>
                     </div>
                 </div>
                 <div>
                     <button className={styles.menuBtn}>Cinemas</button></div>
                 <div>
                     <button className={styles.menuBtn}>Info</button></div>
+                    
             </nav>
         </header>
     )

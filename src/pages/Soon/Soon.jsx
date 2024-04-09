@@ -1,8 +1,6 @@
 import { Header } from "widgets/Header"
 
-
-
-function Home() {
+function Soon() {
 
 
     return (
@@ -10,4 +8,4 @@ function Home() {
     
     )
 }
-export default (Home)
+export default (Soon)

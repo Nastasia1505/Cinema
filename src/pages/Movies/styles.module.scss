@@ -28,9 +28,30 @@ body{
 
 .afishaBtn:hover{
   color: rgb(78, 74, 74);
+  text-decoration: underline;
 }
 
 .options{
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.optionsBtn{
+font-size: 1.1rem;
+display: inline-flex;
+align-items: center;
+padding: 0.5rem;
+gap: 2rem;
+border: none;
+}
+
+.movieTable{
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  justify-content: center;
 }

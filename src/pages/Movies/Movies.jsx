@@ -21,19 +21,19 @@ function Movies() {
     </div>
     <div className={styles.options}> 
    <button className={styles.optionsBtn}>
-   <div className={styles.optionsBtnIcon}><LiaCalendar /></div> 
+   <LiaCalendar className={styles.optionsBtnIcon}/>
    <div className={styles.optionsBtnText}>Date</div> 
-   <div className={styles.optionsBtnArrow}><IoChevronDownCircleOutline /></div> 
+   <IoChevronDownCircleOutline className={styles.optionsBtnArrow}/> 
     </button>
     <button className={styles.optionsBtn}>
-    <div className={styles.optionsBtnIcon}> <PiTimerThin /></div>
+    <PiTimerThin className={styles.optionsBtnIcon}/>
     <div className={styles.optionsBtnText}>Time</div> 
-    <div className={styles.optionsBtnArrow}><IoChevronDownCircleOutline /></div> 
+    <IoChevronDownCircleOutline className={styles.optionsBtnArrow}/> 
         </button>
     <button className={styles.optionsBtn}>
-    <div className={styles.optionsBtnIcon}> <MdLocalMovies /></div>
+    <MdLocalMovies className={styles.optionsBtnIcon}/>
     <div className={styles.optionsBtnText}>Other</div> 
-    <div className={styles.optionsBtnArrow}><IoChevronDownCircleOutline /></div> 
+    <IoChevronDownCircleOutline className={styles.optionsBtnArrow}/> 
         </button>
     </div>
     <div className={styles.movieTable}>

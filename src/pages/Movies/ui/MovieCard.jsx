@@ -15,8 +15,8 @@ function MovieCard() {
     <img  className={styles.poster} src={duna} alt="Duna">
     </img>
     <div className={styles.movieCardText}>Name</div>
-    <div>genre</div>
-    <div>Time</div>
+    <div className={styles.genreText}>genre</div>
+   
    
    
    </div>

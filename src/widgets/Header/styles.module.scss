@@ -1,9 +1,13 @@
 .header {
     padding: 1rem 3rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(44, 40, 40);
-    position: sticky;
+    display: inline-flex;
+justify-content: space-between;
+    background: #27272a;
+    position: fixed;
+    z-index: 100;
+    width: 1240px;
+    border-bottom: 1px solid #434344;
+    top: 0;
 }
 
 .navbar {
@@ -47,5 +51,5 @@
 }
 
 .menuLink:hover {
-    background-color: aqua;
+    background-color: rgb(231, 105, 21);
 }

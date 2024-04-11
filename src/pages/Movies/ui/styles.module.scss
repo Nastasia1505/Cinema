@@ -10,13 +10,15 @@ align-items: center;
     height: 360px;
     position: relative;
     border-radius: 20px;
+    opacity: 0.5;
 }
+
 
 .playTrailer{
     width: 50px;
     height: 50px;
     color: azure;
- 
+    
 }
 
 .buyBtn{
@@ -30,6 +32,7 @@ align-items: center;
 }
 
 .backMovieCard{
+    opacity: 1;
     width: 240px;
     height: 360px;
     border-radius: 20px;
@@ -40,7 +43,8 @@ align-items: center;
     align-items: center;
     gap: 3rem;
     position: absolute;
-    z-index: 10;
+    // z-index: 10;
+    transition: .5s ease;
 }
 
 .movieCardText{
@@ -48,4 +52,9 @@ align-items: center;
     font-weight: bold;
     font-size: 1.3rem;
 
+}
+
+.genreText{
+    margin-top: 0.5rem;
+    color: #575757;
 }

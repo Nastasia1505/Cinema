@@ -1,78 +1,75 @@
-.h1{
-    font-size: 3rem;
-    color: aliceblue;
-
+.h1 {
+  font-size: 3rem;
+  color: aliceblue;
 }
 
-.headerAfisha{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 5rem;
+.headerAfisha {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
 }
 
-.headerAfishaBtn{
-    display: flex;
-    gap: 1rem;
+.headerAfishaBtn {
+  display: flex;
+  gap: 1rem;
 }
 
-.afishaBtn{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: aliceblue;
+.afishaBtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: aliceblue;
 }
 
-.afishaBtn:hover{
+.afishaBtn:hover {
   color: rgb(231, 105, 21);
   text-decoration: underline;
 }
 
-.options{
-    display: flex;
-    gap: 3rem;
-    
+.options {
+  display: flex;
+  gap: 3rem;
 }
 
-.optionsBtn{
-    width: 185px;
-font-size: 1.1rem;
-display: inline-flex;
-align-items: center;
-padding: 0.5rem;
-gap: 2rem;
-border: 1px solid rgb(231, 105, 21);
-border-radius: 20px;
-background: transparent;
-margin-bottom: 3rem;
-
+.optionsBtn {
+  width: 185px;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 2rem;
+  border: 1px solid rgb(231, 105, 21);
+  border-radius: 20px;
+  background: transparent;
+  margin-bottom: 3rem;
 }
 
-.optionsBtnText{
-    color: aliceblue;
+.optionsBtnText {
+  color: aliceblue;
 }
 
-.optionsBtnIcon{
-    width: 30px;
-height: 30px;
-color: aliceblue;
+.optionsBtnIcon {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
 }
 
-.movieTable{
-    display: flex;
-    gap: 5rem;
-    flex-direction: row;
-    flex-wrap: wrap;
+.movieTable {
+  display: flex;
+  gap: 5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
-.optionsBtnArrow{
-width: 30px;
-height: 30px;
-color: rgb(231, 105, 21);
+.optionsBtnArrow {
+  width: 30px;
+  height: 30px;
+  color: rgb(231, 105, 21);
 }
 
-.optionsBtnArrow:hover{
-    color: aliceblue;
+.optionsBtnArrow:hover {
+  color: aliceblue;
 }

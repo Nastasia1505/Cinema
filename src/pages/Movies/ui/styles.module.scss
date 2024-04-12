@@ -1,60 +1,58 @@
-.movieCard{
- margin-top: 1rem;
- display: flex;
- flex-direction: column;
-align-items: center;
+.movieCard {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.poster{
-    width: 240px;
-    height: 360px;
-    position: relative;
-    border-radius: 20px;
-    opacity: 0.5;
+.playTrailer {
+  width: 50px;
+  height: 50px;
+  color: azure;
 }
 
-
-.playTrailer{
-    width: 50px;
-    height: 50px;
-    color: azure;
-    
+.buyBtn {
+  background-color: rgb(231, 105, 21);
+  color: rgb(248, 248, 248);
+  padding: 0.5rem 4rem;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  margin: 10px;
 }
 
-.buyBtn{
-    background-color: rgb(231, 105, 21);
-    color: rgb(248, 248, 248);
-    padding: 0.5rem 4rem;
-    border: none;
-    border-radius: 15px;
-    font-size: 1.2rem;
-    margin: 10px;
+.poster {
+  width: 240px;
+  height: 360px;
+  position: relative;
+  border-radius: 20px;
+}
+.backMovieCard {
+  width: 240px;
+  height: 360px;
+  border-radius: 20px;
+  background-color: rgba(37, 37, 37, 0.788);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s linear;
 }
 
-.backMovieCard{
-    opacity: 1;
-    width: 240px;
-    height: 360px;
-    border-radius: 20px;
-    background-color: rgba(37, 37, 37, 0.788);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    position: absolute;
-    // z-index: 10;
-    transition: .5s ease;
+.backMovieCard:hover {
+  opacity: 1;
 }
 
-.movieCardText{
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 1.3rem;
-
+.movieCardText {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
-.genreText{
-    margin-top: 0.5rem;
-    color: #575757;
+.genreText {
+  margin-top: 0.5rem;
+  color: #575757;
 }

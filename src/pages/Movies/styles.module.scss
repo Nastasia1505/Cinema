@@ -56,18 +56,18 @@
   color: aliceblue;
 }
 
+.optionsBtnArrow {
+  width: 30px;
+  height: 30px;
+  color: rgb(231, 105, 21);
+}
+
 .movieTable {
   display: flex;
   gap: 5rem;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-}
-
-.optionsBtnArrow {
-  width: 30px;
-  height: 30px;
-  color: rgb(231, 105, 21);
 }
 
 .optionsBtnArrow:hover {

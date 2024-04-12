@@ -1,55 +1,49 @@
 .header {
-    padding: 1rem 3rem;
-    display: inline-flex;
-justify-content: space-between;
-    background: #27272a;
-    position: fixed;
-    z-index: 100;
-    width: 1240px;
-    border-bottom: 1px solid #434344;
-    top: 0;
+  padding: 1rem 3rem;
+  display: inline-flex;
+  justify-content: space-between;
+  background: #27272a;
+  position: fixed;
+  z-index: 100;
+  width: 1240px;
+  border-bottom: 1px solid #434344;
+  top: 0;
 }
 
 .navbar {
-    display: flex;
-    gap: 3rem;
+  display: flex;
+  gap: 3rem;
 }
 
 .menuBtn {
-    padding: 0.8rem;
-    border: none;
-    color: rgb(236, 232, 232);
-    background-color: transparent;
-    font-size: 1.1rem;
-    cursor: pointer;
-    position: relative;
-
+  padding: 0.8rem;
+  border: none;
+  color: rgb(236, 232, 232);
+  background-color: transparent;
+  font-size: 1.1rem;
+  cursor: pointer;
+  position: relative;
 }
 
-
 .isOpenMenuLinks {
-    background-color: rgb(92, 92, 92);
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: flex;
-    flex-flow: column wrap;
-    border-radius: 0.5rem;
-    position: absolute;
-    z-index: 100;
-    
+  background-color: rgb(92, 92, 92);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-flow: column wrap;
+  border-radius: 0.5rem;
+  position: absolute;
+  z-index: 100;
 }
 
 .isCloseMenuLinks {
-    display: none;
+  display: none;
 }
 
 .menuLink {
-    padding: 0.5rem;
-    text-decoration: none;
-    color: azure;
-
+  padding: 0.5rem;
 }
 
 .menuLink:hover {
-    background-color: rgb(231, 105, 21);
+  background-color: rgb(231, 105, 21);
 }

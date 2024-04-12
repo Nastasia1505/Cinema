@@ -2,6 +2,7 @@ import { BsPlayCircle } from "react-icons/bs";
 import duna from "./Duna.jpg";
 
 import styles from "./styles.module.scss";
+import { Link } from "react-router-dom";
 
 function MovieCard() {
   return (
@@ -10,7 +11,9 @@ function MovieCard() {
 
       <div className={styles.backMovieCard}>
         <BsPlayCircle className={styles.playTrailer} />
-        <button className={styles.buyBtn}>Book now</button>
+        <button className={styles.buyBtn}>
+          <Link to='/afisha/duna'>Book now</Link>
+          </button>
       </div>
       <div className={styles.movieCardText}>Name</div>
       <div className={styles.genreText}>genre</div>

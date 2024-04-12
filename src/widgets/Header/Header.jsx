@@ -19,8 +19,8 @@ function Header() {
                     }} >Movies</button>
 
                     <div className={isMenuOpen ? styles.isOpenMenuLinks : styles.isCloseMenuLinks}>
-                        <a href='/movies' className={styles.menuLink}>Movies</a>
-                        <a href='/comming_soon' className={styles.menuLink}>Comming soon</a>
+                        <Link to='/movies' className={styles.menuLink}>Movies</Link>
+                        <Link to='/comming_soon' className={styles.menuLink}>Comming soon</Link>
                     </div>
                 </div>
                 <div>

@@ -1,0 +1,33 @@
+.options {
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .optionsBtn {
+    width: 185px;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem;
+    gap: 2rem;
+    border: 1px solid rgb(231, 105, 21);
+    border-radius: 20px;
+    background: transparent;
+    margin-bottom: 3rem;
+  }
+  
+  .optionsBtnText {
+    color: aliceblue;
+  }
+  
+  .optionsBtnIcon {
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+  }
+
+  .optionsBtnArrow {
+    width: 30px;
+    height: 30px;
+    color: rgb(231, 105, 21);
+  }

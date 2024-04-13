@@ -1,33 +1,58 @@
 .options {
-    display: flex;
-    gap: 3rem;
-  }
-  
-  .optionsBtn {
-    width: 185px;
-    font-size: 1.1rem;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem;
-    gap: 2rem;
-    border: 1px solid rgb(231, 105, 21);
-    border-radius: 20px;
-    background: transparent;
-    margin-bottom: 3rem;
-  }
-  
-  .optionsBtnText {
-    color: aliceblue;
-  }
-  
-  .optionsBtnIcon {
-    width: 30px;
-    height: 30px;
-    color: aliceblue;
-  }
+  display: flex;
+  gap: 3rem;
+}
 
-  .optionsBtnArrow {
-    width: 30px;
-    height: 30px;
-    color: rgb(231, 105, 21);
-  }
+.optionsBtn {
+  width: 185px;
+  font-size: 1.1rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 2rem;
+  border: 1px solid rgb(231, 105, 21);
+  border-radius: 20px;
+  background: transparent;
+  margin-bottom: 3rem;
+}
+
+.optionsBtnText {
+  color: aliceblue;
+}
+
+.optionsBtnIcon {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+}
+
+.optionsBtnArrow {
+  width: 30px;
+  height: 30px;
+  color: rgb(231, 105, 21);
+}
+
+.poster {
+  width: 270px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.section {
+  display: flex;
+  gap: 4rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  max-width: 25rem;
+}
+
+.wrapper {
+  margin-top: 8rem;
+}
+
+.title {
+  font-size: 2.5rem;
+}

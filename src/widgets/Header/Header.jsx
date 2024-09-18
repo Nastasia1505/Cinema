@@ -23,10 +23,9 @@ function Header() {
                         <Link to='/comming_soon' className={styles.menuLink}>Comming soon</Link>
                     </div>
                 </div>
-                <div>
-                    <button className={styles.menuBtn}>Cinemas</button></div>
-                <div>
-                    <button className={styles.menuBtn}>Info</button></div>
+                    <button className={styles.menuBtn}>Cinemas</button>
+
+                    <button className={styles.menuBtn}>Info</button>
                     
             </nav>
         </header>

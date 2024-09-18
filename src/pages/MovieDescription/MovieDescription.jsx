@@ -9,34 +9,36 @@ import { BsStopwatch } from "react-icons/bs";
 import duna from './Duna.jpg'
 
 function MovieDescription() {
+  const d = new Date()
+  console.log(d.getDay())
   return (
     <div className={styles.wrapper}>
-      <div className={styles.section}>
+      <section className={styles.section}>
         <img className={styles.poster} src={duna} alt="Duna" ></img>
         <div className={styles.description}>
-          <h1 className={styles.title}>
+          <h2 className={styles.title}>
             Duna
-          </h1>
-          <div> <BsTag />Боевик, Драма, Фантастика</div>
-          <div> <BsStopwatch />166 мин.</div>
-          <div><p>Duke Paul Atreides joins the Fremen to become Muad'Dib while trying to stop the advance of war.</p></div>
+          </h2>
+          <h4> <BsTag />Action, Drama, Sci-Fi</h4>
+          <h4> <BsStopwatch />166 min.</h4>
+          <p>Duke Paul Atreides joins the Fremen to become Muad'Dib while trying to stop the advance of war.</p>
         </div>
-      </div>
+      </section>
 
       <div className={styles.options}>
         <button className={styles.optionsBtn}>
           <LiaCalendar className={styles.optionsBtnIcon} />
-          <div className={styles.optionsBtnText}>Date</div>
+          <p className={styles.optionsBtnText}>Date</p>
           <IoChevronDownCircleOutline className={styles.optionsBtnArrow} />
         </button>
         <button className={styles.optionsBtn}>
           <PiTimerThin className={styles.optionsBtnIcon} />
-          <div className={styles.optionsBtnText}>Time</div>
+          <p className={styles.optionsBtnText}>Time</p>
           <IoChevronDownCircleOutline className={styles.optionsBtnArrow} />
         </button>
         <button className={styles.optionsBtn}>
           <MdLocalMovies className={styles.optionsBtnIcon} />
-          <div className={styles.optionsBtnText}>Other</div>
+          <p className={styles.optionsBtnText}>Other</p>
           <IoChevronDownCircleOutline className={styles.optionsBtnArrow} />
         </button>
 

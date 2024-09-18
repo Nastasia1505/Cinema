@@ -1,14 +1,21 @@
-body {
-    margin: 0 8rem;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body {
+    margin: 0 auto;
     outline: none;
     font-size: 14px;
-    font-family: noto sans;
+    font-family: "Roboto", sans-serif;
     background: #27272a;
     color: rgb(241, 241, 241);
     max-width: 1240px;
-
 }
 
 a {

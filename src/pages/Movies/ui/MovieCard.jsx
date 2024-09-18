@@ -15,8 +15,8 @@ function MovieCard() {
           <Link to='/afisha/duna'>Book now</Link>
           </button>
       </div>
-      <div className={styles.movieCardText}>Name</div>
-      <div className={styles.genreText}>genre</div>
+      <h3 className={styles.movieCardText}>Name</h3>
+      <h3 className={styles.genreText}>genre</h3>
     </div>
   );
 }
